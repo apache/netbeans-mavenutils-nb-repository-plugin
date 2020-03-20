@@ -400,8 +400,6 @@ public class PopulateRepositoryMojo
                         group = dep.getGroupId();
                         version = dep.getVersion();
                         wr = new ModuleWrapper( artifact, version, group, examinator, module , true );
-                        // XXX use those coords instead of publishing this
-                        // (for now all bundles are from Orbit, which does not publish to Central, or specially built)
                     }
                 }
                 wr.setCluster( clust );
