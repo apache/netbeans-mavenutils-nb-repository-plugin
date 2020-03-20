@@ -457,7 +457,7 @@ public class PopulateRepositoryMojo
             for ( Map.Entry<ModuleWrapper, Artifact> elem : moduleDefinitions.entrySet() )
             {
                 ModuleWrapper man = elem.getKey();
-                if (man.repo) 
+                if ( man.repo ) 
                 {
                     continue;
                 }
