@@ -393,7 +393,7 @@ public class PopulateRepositoryMojo
                 if ( examinator.isOsgiBundle() )
                 {
                     Dependency dep = findExternal( module );
-                    if ( dep != null ) 
+                    if ( dep != null )
                     {
                         
                         art = createArtifact( artifact, dep.getVersion(), dep.getGroupId() );
