@@ -15,7 +15,7 @@
 # limitations under the License.
 
 github:
-  description: "Apache NetBeans Maven Utils to populate repository with Apache Maven NetBeans bits"
+  description: "This repository have been merged to https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin/"
   homepage: https://netbeans.apache.org/
   labels:
     - netbeans
